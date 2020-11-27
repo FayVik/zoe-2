@@ -7,17 +7,17 @@ function Home() {
         <div class="container-fluid">
             <div className="row align-items-center">
            
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                     <Img src={img114} />
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6">
                     <h1>Welcome to Zoe Pool</h1>
                     <br />
                     <p>A Cardano Stake Pool in Africa</p>
                     <p>Run by women</p>
                     <p>Investing in women</p>
                     <br />
-                    <h2>#WomenInBlockchain</h2>
+                    <h3>#WomenInBlockchain</h3>
                                     
                 </div>
             </div>
