@@ -5,14 +5,15 @@ function Menu() {
         <div
         className="menu"
         style={{
-        position: 'fixed',
-        top: 0,
-        zIndex: 50,
-        // background: 'rgba(256,256,256,0.3)',
+        position: 'fixed',    
+        top: 100,
+        left: 0,
+        zIndex: 100,
+        background: 'rgba(66,31,113,0.3)',
         }}
         >
 
-            <ul class="nav nav-pills">
+            <ul class="nav flex-column">
             <li class="nav-item border-0">
                 <a class="nav-link" data-menuanchor="home" href="#home">Home</a>
             </li>
