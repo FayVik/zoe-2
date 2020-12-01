@@ -8,7 +8,7 @@ function Menu() {
         position: 'fixed',    
         top: 100,
         left: 0,
-        zIndex: 100,
+        zIndex: 2000,
         background: 'rgba(66,31,113,0.3)',
         }}
         >

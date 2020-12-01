@@ -23,7 +23,7 @@ const Fullpage = () => (
     licenseKey = {'YOUR_KEY_HERE'}
     navigation
     anchors={['home', 'about', 'delegate', 'partners']}
-    sectionsColor = {['#040740', '#044BD9', '#056CF2', '#B4C7F9']}
+    sectionsColor = {['#040740', '#B4C7F9', '#056CF2', '#B4C7F9']}
     scrollingSpeed = {1200} /* Options here */
 
     render={({ state, fullpageApi }) => {
