@@ -2,14 +2,19 @@ import React, { Fragment } from 'react';
 import img007 from '../images/007.jpg';
 import styled from 'styled-components';
 
+{/* Two Views - in Fragmet */}
+
 function Delegate() {
     return (
         <Fragment>
+             {/* Mobile View */}
             <div class="d-block d-md-none">
-            <ImageMobileDiv>
-                <h1>what does your delegation do?</h1>
-            </ImageMobileDiv>
+                <ImageMobileDiv>
+                    <h1>what does your delegation do?</h1>
+                </ImageMobileDiv>
             </div>
+
+            {/* Browser Wide View */} 
             <div class="d-none d-md-block">
                 <ImageWideDiv>
                     <div class="container">

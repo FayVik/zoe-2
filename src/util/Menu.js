@@ -1,9 +1,12 @@
 import { React, Fragment } from 'react'
 
+{/* Two Views - in Fragmet */}
+
 function Menu() {
     return (
-
+        
         <Fragment>
+            {/* Mobile View */}
             <div class="d-block d-lg-none">
                 <div
                 className="menu"
@@ -34,6 +37,7 @@ function Menu() {
                 </div>
             </div>
 
+            {/* Browser Wide View */}    
             <div class="d-none d-lg-block">
                 <div
                 className="menu"

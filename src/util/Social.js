@@ -6,13 +6,13 @@ import twitter from '../images/twitter.png';
 import medium from '../images/medium.png';
 import styled from 'styled-components';
 
+{/* Two Views - in Fragmet */}
+
 function Social() {
     return (
-    
-
-
 
         <Fragment>
+             {/* Mobile View */}
             <div class="d-block d-lg-none">
                 
                     <div className="container-fluid" style={{
@@ -32,6 +32,8 @@ function Social() {
                     </div>
                
             </div>
+            
+            {/* Browser Wide View */} 
             <div class="d-none d-lg-block">
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid" style={{
