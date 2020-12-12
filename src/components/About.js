@@ -29,13 +29,13 @@ function About() {
                 </div> 
 
                 <nav>
-                    <div class="nav" id="nav-tab" role="tablist" style={{ border: 0 }}>
-                        <a class="nav-item nav-link active btn" id="nav-home-m-tab" data-toggle="tab" href="#nav-home-m" role="tab" aria-controls="nav-home-m" aria-selected="true" style={{ fontSize: '0.5em' }}>1</a>
-                        <a class="nav-item nav-link" id="nav-two-m-tab" data-toggle="tab" href="#nav-two-m" role="tab" aria-controls="nav-two-m" aria-selected="false" style={{ fontSize: '0.5em' }}>2</a>
-                        <a class="nav-item nav-link" id="nav-three-m-tab" data-toggle="tab" href="#nav-three-m" role="tab" aria-controls="nav-three-m" aria-selected="false" style={{ fontSize: '0.5em' }}>3</a>
-                        <a class="nav-item nav-link" id="nav-four-m-tab" data-toggle="tab" href="#nav-four-m" role="tab" aria-controls="nav-four-m" aria-selected="false" style={{ fontSize: '0.5em' }}>4</a>
-                        <a class="nav-item nav-link" id="nav-five-m-tab" data-toggle="tab" href="#nav-five-m" role="tab" aria-controls="nav-five-m" aria-selected="false" style={{ fontSize: '0.5em' }}>5</a>
-                    </div>
+                    <ul class="nav justify-content-center" id="nav-tab" role="tablist" style={{ border: 0 }}>
+                        <li><a class="nav-item nav-link active btn" id="nav-home-m-tab" data-toggle="tab" href="#nav-home-m" role="tab" aria-controls="nav-home-m" aria-selected="true" style={{ fontSize: '0.6em' }}>ZOE</a></li>
+                        <li><a class="nav-item nav-link" id="nav-two-m-tab" data-toggle="tab" href="#nav-two-m" role="tab" aria-controls="nav-two-m" aria-selected="false" style={{ fontSize: '0.6em' }}>GIVE</a></li>
+                        <li><a class="nav-item nav-link" id="nav-three-m-tab" data-toggle="tab" href="#nav-three-m" role="tab" aria-controls="nav-three-m" aria-selected="false" style={{ fontSize: '0.6em' }}>STAKE</a></li>
+                        <li><a class="nav-item nav-link" id="nav-four-m-tab" data-toggle="tab" href="#nav-four-m" role="tab" aria-controls="nav-four-m" aria-selected="false" style={{ fontSize: '0.6em' }}>SUPPORT</a></li>
+                        <li><a class="nav-item nav-link" id="nav-five-m-tab" data-toggle="tab" href="#nav-five-m" role="tab" aria-controls="nav-five-m" aria-selected="false" style={{ fontSize: '0.6em' }}>ALL</a></li>
+                    </ul>
                 </nav>
             </div>
             

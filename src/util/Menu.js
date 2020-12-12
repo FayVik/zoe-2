@@ -1,4 +1,5 @@
-import { React, Fragment } from 'react'
+import { React, Fragment } from 'react';
+import styled from 'styled-components';
 
 {/* Two Views - in Fragmet */}
 
@@ -22,16 +23,16 @@ function Menu() {
 
                     <ul class="nav nav-fill">
                         <li class="nav-item border-0">
-                            <a class="nav-link" data-menuanchor="home" href="#home">Home</a>
+                            <a class="nav-link" data-menuanchor="home" href="#home"><MenuLinkM>Home</MenuLinkM></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-menuanchor="about" href="#about">About</a>
+                            <a class="nav-link" data-menuanchor="about" href="#about"><MenuLinkM>About</MenuLinkM></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-menuanchor="delegate" href="#delegate">Delegate</a>
+                            <a class="nav-link" data-menuanchor="delegate" href="#delegate"><MenuLinkM>Delegate</MenuLinkM></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-menuanchor="partners" href="#partners">Partners</a>
+                            <a class="nav-link" data-menuanchor="partners" href="#partners"><MenuLinkM>Partners</MenuLinkM></a>
                         </li>         
                     </ul>
                 </div>
@@ -73,7 +74,12 @@ function Menu() {
 }
 
 
-
+const MenuLinkM = styled.p`
+    margin: auto;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 80%;
+`;  
 
 
 
