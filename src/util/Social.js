@@ -60,8 +60,8 @@ function Social() {
 }
 
 const Img = styled.img`
-    height: 100px;
-    padding-left: 1em;
+    height: 80px;
+    padding-right: 1em;
     padding-bottom: 0.5em;
     padding-top: 0.5em;
 `;

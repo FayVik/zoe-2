@@ -20,8 +20,9 @@ function AboutCard(props) {
 const Image = styled.img`
   width: 100%;
   height: 100%;
-  border-radius: 10%;
-  box-shadow: 3px 3px #bbbbbb;
+  border-radius: 2%;
+  box-shadow: -26px -26px #F5F94B;
+  transform: rotate(-2deg);
 `;
 
 const MyCard = styled.div`
@@ -41,7 +42,7 @@ const BlurbBig = styled.p`
 const BlurbSmall = styled.p`
     color: #040740;
     font-weight: 200;
-    font-size: 80%;
+    font-size: 60%;
     text-align: left;
 `;  
 
