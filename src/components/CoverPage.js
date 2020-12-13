@@ -99,7 +99,7 @@ const ImgMeta = styled.div`
   align-items: center;
   justify-content: center;
   position: absolute;
-  background-color: rgba(50, 0, 140, 0.7);
+  background-color: rgba(50, 0, 140, 0.3);
   color: #FFF;
   top: 0;
   right: 0;

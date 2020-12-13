@@ -56,13 +56,13 @@ function Menu() {
                             <a class="nav-link" data-menuanchor="home" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-menuanchor="about" href="#about">About</a>
+                            <a class="nav-link" data-menuanchor="about" href="#about">Welcome</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-menuanchor="delegate" href="#delegate">Delegate</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-menuanchor="partners" href="#partners">Partners</a>
+                            <a class="nav-link" data-menuanchor="partners" href="#partners">Learn More</a>
                         </li>         
                     </ul>
                 </div>
