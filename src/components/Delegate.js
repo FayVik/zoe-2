@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import img007 from '../images/007.jpg';
 import styled from 'styled-components';
+import zoeblue from '../images/zoeblue.png';
 
 {/* Two Views - in Fragmet */}
 
@@ -10,21 +11,45 @@ function Delegate() {
              {/* Mobile View */}
             <div class="d-block d-md-none">
                 <ImageMobileDiv>
-                    <DelegateText>
-                        <h1>Delegation: a brand new way of investing in infrastucture</h1>
-                        <a type="button" class="btn btn-secondary btn-sm mt-5" href="">Learn More</a>
-                    </DelegateText>
+                    <div className="container">
+                        <div className="row">
+                            <DelegateTextM>
+                                <h1>Delegation: a brand new way of investing in infrastucture</h1>
+                                <h2>Own the network, earn rewards</h2>
+                                <a type="button" class="btn btn-secondary btn-sm mt-5" href="">Learn More</a>
+                            </DelegateTextM>
+                        </div>
+                        <div className="row justify-content-center">
+                            <ZoeBlue src={zoeblue} /> 
+                        </div>
+                    </div>  
+                    
                 </ImageMobileDiv>
+                
             </div>
 
             {/* Browser Wide View */} 
             <div class="d-none d-md-block">
                 <ImageWideDiv>
-                    <DelegateText>
-                        <h1>Delegation: a brand new way of investing in infrastucture</h1>
-                        <a type="button" class="btn btn-secondary mt-5" href="">Learn More</a>
-                    </DelegateText>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col">
+                                <ZoeFull src={zoeblue} /> 
+                            </div>
+
+                            <div className="col">
+                                <DelegateText>
+                                    <h1>Delegation: a brand new way of investing in infrastucture</h1>
+                                    <h2>Own the network, earn rewards</h2>
+                                    <a type="button" class="btn btn-secondary mt-5" href="">Learn More</a>
+                                </DelegateText>
+                            </div>   
+                        </div>
+                    </div>
+                    
+                    
                 </ImageWideDiv>
+                
             </div>
         </Fragment>
 
@@ -40,7 +65,11 @@ const ImageWideDiv = styled.div`
 
 
 const DelegateText = styled.div`
-    padding-left: 33vh;
+    padding-top: 25vh;
+`;
+
+const DelegateTextM = styled.div`
+    padding-left: 10vh;
     padding-top: 25vh;
 `;
 
@@ -50,7 +79,13 @@ const ImageMobileDiv = styled.div`
     height: 100vh;
     display: flex;
     justify-content: center;
-    
+`;
+
+const ZoeBlue = styled.img`
+    width: 60%;
+`;
+
+const ZoeFull = styled.img`
 
 `;
 
