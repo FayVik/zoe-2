@@ -6,9 +6,10 @@ import twitter from '../images/twitter.png';
 import medium from '../images/medium.png';
 import styled from 'styled-components';
 
-{/* Two Views - in Fragmet */}
+{/* Two Views - in Fragment */}
 
 function Social() {
+
     return (
 
         <Fragment>
@@ -21,13 +22,13 @@ function Social() {
                         width: '100%',
                         right: 0,
                         zIndex: 2000,
-                        background: 'rgba(5,108,242,0.3)',        
+                        background: 'rgba(66,31,115,0.7)',        
                     }}>
                         <ul class="nav nav-fill">
-                            <li class="nav-item"><a href=""><ImgM src={csocial} /></a></li>
-                            <li class="nav-item"><a href=""><ImgM src={instagram} /></a></li>
+                            <li class="nav-item"><a href="https://www.instagram.com/zoepoolz/"><ImgM src={instagram} /></a></li>
                             <li class="nav-item"><a href="https://twitter.com/zoepoolz"><ImgM src={twitter} /></a></li>
-                            <li class="nav-item"><a href=""><ImgM src={medium} /></a></li>            
+                            <li class="nav-item"><a href=""><ImgM src={medium} /></a></li>
+                            <li class="nav-item"><a href=""><ImgM src={csocial} /></a></li>            
                         </ul>       
                     </div>
                
@@ -39,16 +40,16 @@ function Social() {
                     <div className="container-fluid" style={{
                         position: 'fixed',    
                         bottom: 20,
-                        width: '50%',
+                        width: '40%',
                         right: 0,
                         zIndex: 2000,
-                        background: 'rgba(5,108,242,0.3)',        
+                        background: 'rgba(66,31,115,0.7)',        
                     }}>
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a href=""><Img src={csocial} /></a></li>
                             <li class="nav-item"><a href=""><Img src={instagram} /></a></li>
                             <li class="nav-item"><a href="https://twitter.com/zoepoolz"><Img src={twitter} /></a></li>
                             <li class="nav-item"><a href=""><Img src={medium} /></a></li>            
+                            <li class="nav-item"><a href=""><Img src={csocial} /></a></li>
                         </ul>       
                     </div>
                 </nav>

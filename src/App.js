@@ -1,16 +1,27 @@
 import React from 'react';
 import './App.css';
+import Social from './util/Social';
 import Menu from './util/Menu';
 import Fullpage from './components/Fullpage';
-import Social from './util/Social';
+import DelegateDetails from './components/DelegateDetails';
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-      <Fullpage />
+    <Router>
+      <Switch>
+        <Route path="/delegate">
+          <DelegateDetails />
+        </Route>
+        <Route path="/">
+          <Fullpage />
+        </Route>
+      </Switch>
       <Menu />
-      <Social />
-    </div>
+      <Social />  
+
+    </Router>
   );
 }
 

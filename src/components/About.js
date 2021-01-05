@@ -1,7 +1,6 @@
 import React from 'react';
 import AboutCard from '../util/AboutCard';
 import { aboutParagraphs } from '../data/aboutParagraphs';
-import styled from 'styled-components';
 
 import imgA from '../images/014.jpg';
 import imgB from '../images/025.jpg';
@@ -12,13 +11,8 @@ import imgE from '../images/021.jpg';
 function About() {
     return (
         <div class="container">
-           
-                    
-             
             
-            {/* Mobile Nav View */} 
-            
-            
+            {/* Mobile Nav View */}   
             <div class="d-block d-lg-none">
                 <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-home-m" role="tabpanel" aria-labelledby="nav-home-m-tab"><AboutCard cardText={aboutParagraphs[1]} cardImg={imgA} /></div>
@@ -39,7 +33,6 @@ function About() {
                 </nav>
             </div>
             
-
             {/* Browser Wide Nav View */} 
             <div class="d-none d-lg-block">
                 <div class="tab-content" id="nav-tabContent">
@@ -60,16 +53,11 @@ function About() {
                     </div>
                 </nav>
             </div>
-
-            
-                
+     
         </div>
-
 
     )
 }
-
-
 
 export default About
 
