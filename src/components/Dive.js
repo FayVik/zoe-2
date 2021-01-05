@@ -3,7 +3,6 @@ import CoverPage from './CoverPage';
 import { Link, Switch, Route, useRouteMatch } from 'react-router-dom';
 import styled from 'styled-components';
 
-import Blog from '../components/Blog';
 import Events from '../components/Events';
 import Partners from '../components/Partners';
 import Glossary from '../components/Glossary';
@@ -16,30 +15,30 @@ function Dive() {
         <DivePage>
             <ul class="nav navbar navbar-light bg-light">
                 <li class="nav-item">
-                    <Link to="/dive/partners" style={{ color: 'black' }}>
+                    <Link to="/partners" style={{ color: 'black' }}>
                         Partners
                     </Link>                    
                 </li>
                 <li class="nav-item">
-                    <Link to="/dive/glossary" style={{ color: 'black' }}>
+                    <Link to="/glossary" style={{ color: 'black' }}>
                         Glossary
                     </Link>                    
                 </li>
                 <li class="nav-item">
-                    <Link to="/dive/events" style={{ color: 'black' }}>
+                    <Link to="/events" style={{ color: 'black' }}>
                         Events
                     </Link>
                 </li>
             </ul>
             <div class="container p-5">
                 <Switch>
-                    <Route path="/dive/events">
+                    <Route path="/events">
                         <Events />
                     </Route>
-                    <Route path="/dive/glossary">
+                    <Route path="/glossary">
                         <Glossary />
                     </Route>
-                    <Route path="/dive/partners">
+                    <Route path="/partners">
                         <Partners />
                     </Route>
                 </Switch>
