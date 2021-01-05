@@ -3,8 +3,6 @@ import img007 from '../images/007.jpg';
 import styled from 'styled-components';
 import zoeblue from '../images/zoeblue.png';
 
-{/* Two Views - in Fragmet */}
-
 function Delegate() {
     return (
         <Fragment>

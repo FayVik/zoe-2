@@ -1,8 +1,6 @@
 import { React, Fragment } from 'react';
 import styled from 'styled-components';
 
-{/* Two Views - in Fragment */}
-
 function Menu() {
 
     const menulinks = (   
