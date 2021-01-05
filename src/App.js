@@ -5,11 +5,11 @@ import Menu from './util/Menu';
 import Fullpage from './components/Fullpage';
 import DelegateDetails from './components/DelegateDetails';
 
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/delegate">
           <DelegateDetails />
