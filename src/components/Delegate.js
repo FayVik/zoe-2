@@ -80,7 +80,8 @@ const ImageMobileDiv = styled.div`
 `;
 
 const ZoeBlue = styled.img`
-    width: 60%;
+    width: 50%;
+    height: 50%;
 `;
 
 const ZoeFull = styled.img`

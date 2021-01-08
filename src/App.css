@@ -65,3 +65,9 @@ body{
 .nav-link{
   color: #fff;
 }
+
+.btn.btn-secondary{
+  font-family: 'Inknut Antiqua', serif;
+  border-radius: 0;
+  background-color: #040740;
+}
