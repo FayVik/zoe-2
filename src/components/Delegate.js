@@ -14,7 +14,7 @@ function Delegate() {
                             <DelegateTextM>
                                 <h1>Delegation: a brand new way of investing in infrastucture</h1>
                                 <h2>Own the network, earn rewards</h2>
-                                <a type="button" class="btn btn-secondary btn-sm mt-5" href="/delegate">Learn More</a>
+                                <a class="learn-more" href="/delegate">Learn More</a>
                             </DelegateTextM>
                         </div>
                         <div className="row justify-content-center">
@@ -39,7 +39,7 @@ function Delegate() {
                                 <DelegateText>
                                     <h1>Delegation: a brand new way of investing in infrastucture</h1>
                                     <h2>Own the network, earn rewards</h2>
-                                    <a type="button" class="btn btn-secondary mt-5" href="/delegate">Learn More</a>
+                                    <a class="learn-more" href="/delegate">Learn More</a>
                                 </DelegateText>
                             </div>   
                         </div>

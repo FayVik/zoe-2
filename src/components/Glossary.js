@@ -10,7 +10,7 @@ function Glossary() {
                 </div>
                 <div class="col-8">
                     <h1>ZOEPOOL Glossary</h1>
-                    <p1>A gallery of educational resources and content for sharing. We can feature content on this page and link to a full library.</p1>                  
+                    <p1 class="dive-text">A gallery of educational resources and content for sharing. We can feature content on this page and link to a full library.</p1>                  
                 </div>
             </div>
         </div>

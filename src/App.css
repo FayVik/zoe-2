@@ -71,3 +71,18 @@ body{
   border-radius: 0;
   background-color: #040740;
 }
+
+.dive-text{
+  color: #fff;
+  font-size: 1.5em;
+  font-family: 'Encode Sans', sans-serif;
+  line-height: 200%;
+}
+
+.learn-more{
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgba(66,31,113,0.9);
+  letter-spacing: 10px;
+}

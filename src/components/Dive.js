@@ -30,7 +30,7 @@ function Dive() {
                     </Link>
                 </li>
             </ul>
-            <div class="container p-5">
+            <div class="container p-1 p-lg-5">
                 <Switch>
                     <Route path="/events">
                         <Events />
@@ -49,11 +49,10 @@ function Dive() {
 }
 
 const DivePage = styled.div`
-    background: rgb(255, 0, 0, 0.3);
+    background: #040740;
     width: 80%;
     height: 70vh;
     margin: auto;
-    padding: 20px;
 `;
 
 

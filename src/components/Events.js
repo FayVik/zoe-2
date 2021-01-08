@@ -10,7 +10,7 @@ function Events() {
                 </div>
                 <div class="col-8">
                     <h1>ZOEPOOL Events</h1>
-                    <p1>A list of upcoming events will be posted here.</p1>                    
+                    <p1 class="dive-text">A list of upcoming events will be posted here.</p1>                    
                 </div>
             </div>
         </div>

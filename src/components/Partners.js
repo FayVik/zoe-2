@@ -10,8 +10,8 @@ function Partners() {
                 </div>
                 <div class="col-8">
                     <h1>ZOEPOOL Partners</h1>
-                    <p1>A list of partners with links. We can change the layout of this page, and link to deeper content.</p1>
-                    <ul>
+                    <p1 class="dive-text">A list of partners with links. We can change the layout of this page, and link to deeper content.</p1>
+                    <ul class="dive-text">
                         <li>AfroFinLab</li>
                         <li>ABCD</li>
                         <li>Workshop Maybe</li>
