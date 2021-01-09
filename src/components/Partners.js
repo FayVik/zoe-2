@@ -3,7 +3,7 @@ import zoeblue from '../images/zoeblue.png';
 
 function Partners() {
     return (
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-4">
                     <img src={zoeblue} class="img-fluid float-left" />

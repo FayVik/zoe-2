@@ -3,26 +3,6 @@ import styled from 'styled-components';
 
 function Menu() {
 
-    const menulinks = (   
-        <Fragment>
-            <li class="nav-item border-0">
-                <a class="nav-link" data-menuanchor="home" href="/#home"><MenuLink>Home</MenuLink></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-menuanchor="about" href="/#about"><MenuLink>About</MenuLink></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-menuanchor="delegate" href="/#delegate"><MenuLink>Delegate</MenuLink></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-menuanchor="dive" href="/#dive"><MenuLink>Dive In</MenuLink></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" data-menuanchor="blog" href="/#blog"><MenuLink>Blog</MenuLink></a>
-            </li>
-        </Fragment>                     
-    );
-
     return (
         
         <Fragment>
@@ -41,7 +21,21 @@ function Menu() {
                 >
 
                     <ul class="nav nav-fill">
-                        {menulinks}
+                        <li class="nav-item border-0">
+                            <a class="nav-link" data-menuanchor="home" href="/#home"><MobileMenuLink>Home</MobileMenuLink></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-menuanchor="about" href="/#about"><MobileMenuLink>About</MobileMenuLink></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-menuanchor="delegate" href="/#delegate"><MobileMenuLink>Delegate</MobileMenuLink></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-menuanchor="dive" href="/#dive"><MobileMenuLink>Dive In</MobileMenuLink></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-menuanchor="blog" href="/#blog"><MobileMenuLink>Blog</MobileMenuLink></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -60,7 +54,21 @@ function Menu() {
                 >
 
                     <ul class="nav flex-column">
-                        {menulinks}
+                        <li class="nav-item border-0">
+                            <a class="nav-link" data-menuanchor="home" href="/#home"><MenuLink>Home</MenuLink></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-menuanchor="about" href="/#about"><MenuLink>About</MenuLink></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-menuanchor="delegate" href="/#delegate"><MenuLink>Delegate</MenuLink></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-menuanchor="dive" href="/#dive"><MenuLink>Dive In</MenuLink></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-menuanchor="blog" href="/#blog"><MenuLink>Blog</MenuLink></a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -75,9 +83,15 @@ const MenuLink = styled.p`
     margin: auto;
     color: #FFFFFF;
     font-weight: 700;
-    font-size: 70%;
+    font-size: 95%;
 `;  
 
+const MobileMenuLink = styled.p`
+    margin: auto;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 60%;
+`;  
 
 
 export default Menu

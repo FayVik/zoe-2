@@ -10,7 +10,7 @@ import imgE from '../images/021.jpg';
 
 function About() {
     return (
-        <div class="container">
+        <div class="container-fluid">
             
             {/* Mobile Nav View */}   
             <div class="d-block d-lg-none">

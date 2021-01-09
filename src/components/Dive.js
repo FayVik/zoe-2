@@ -50,8 +50,8 @@ function Dive() {
 
 const DivePage = styled.div`
     background: #040740;
-    width: 80%;
-    height: 70vh;
+    width: 85%;
+    height: 90vh;
     margin: auto;
 `;
 

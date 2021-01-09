@@ -5,11 +5,11 @@ function AboutCard(props) {
     return (
 
         <MyCard>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="row align-items-center">
                     <div className="col-12 col-sm-8 col-md-6"><Image src={props.cardImg} alt="..." /></div>  
-                    <div className="col-md-6 d-none d-md-block"><BlurbBig>{props.cardText}</BlurbBig></div>
-                    <div className="col-12 d-block d-md-none pt-3"><BlurbSmall>{props.cardText}</BlurbSmall></div>                                 
+                    <div className="col-md-6 d-none d-sm-block"><BlurbBig>{props.cardText}</BlurbBig></div>
+                    <div className="col-12 d-block d-sm-none pt-3"><BlurbSmall>{props.cardText}</BlurbSmall></div>                                 
                 </div>
             </div>        
         </MyCard>
@@ -42,7 +42,7 @@ const BlurbBig = styled.p`
 const BlurbSmall = styled.p`
     color: #040740;
     font-weight: 200;
-    font-size: 60%;
+    font-size: 80%;
     text-align: left;
 `;  
 

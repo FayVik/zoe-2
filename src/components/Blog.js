@@ -7,12 +7,12 @@ function Blog() {
         <BlogPage>
             <h1>Blog coming soon!</h1>
             <p1>check us out on Medium</p1>
-            <div class="card m-5" style={{ width: '200px' }}>
+            <div class="card m-5">
                 <div class="card-header">I'm a card!</div>
                 <div class="card-body">We can use cards</div>
                 
             </div>
-            <div class="card m-5" style={{ width: '200px' }}>
+            <div class="card m-5">
                 <div class="card-header">Another card!</div>
                 <div class="card-body">to highlight our favorite or most recent blog posts</div>
             </div>
@@ -23,10 +23,10 @@ function Blog() {
 
 const BlogPage = styled.div`
     background: rgb(255, 255, 255, 0.7);
-    width: 60%;
-    height: 70vh;
+    width: 80%;
+    height: 90vh;
     margin: auto;
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
 `;
 
