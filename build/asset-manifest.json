@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.72a8bd63.chunk.css",
+    "main.js": "/static/js/main.f00166e1.chunk.js",
+    "main.js.map": "/static/js/main.f00166e1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7075d659.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7075d659.js.map",
+    "static/css/2.1f208231.chunk.css": "/static/css/2.1f208231.chunk.css",
+    "static/js/2.1ccee4b7.chunk.js": "/static/js/2.1ccee4b7.chunk.js",
+    "static/js/2.1ccee4b7.chunk.js.map": "/static/js/2.1ccee4b7.chunk.js.map",
+    "static/js/3.dd068801.chunk.js": "/static/js/3.dd068801.chunk.js",
+    "static/js/3.dd068801.chunk.js.map": "/static/js/3.dd068801.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.1f208231.chunk.css.map": "/static/css/2.1f208231.chunk.css.map",
+    "static/css/main.72a8bd63.chunk.css.map": "/static/css/main.72a8bd63.chunk.css.map",
+    "static/js/2.1ccee4b7.chunk.js.LICENSE.txt": "/static/js/2.1ccee4b7.chunk.js.LICENSE.txt",
+    "static/media/001.97fc6d5e.jpg": "/static/media/001.97fc6d5e.jpg",
+    "static/media/002.e766c36b.jpg": "/static/media/002.e766c36b.jpg",
+    "static/media/007.bde0f522.jpg": "/static/media/007.bde0f522.jpg",
+    "static/media/012.85b706eb.jpg": "/static/media/012.85b706eb.jpg",
+    "static/media/014.999af1ec.jpg": "/static/media/014.999af1ec.jpg",
+    "static/media/018.b9704b63.jpg": "/static/media/018.b9704b63.jpg",
+    "static/media/021.d1a819b1.jpg": "/static/media/021.d1a819b1.jpg",
+    "static/media/023.5087540f.jpg": "/static/media/023.5087540f.jpg",
+    "static/media/025.805b10ab.jpg": "/static/media/025.805b10ab.jpg",
+    "static/media/101.75b6785a.jpg": "/static/media/101.75b6785a.jpg",
+    "static/media/102.67263531.jpg": "/static/media/102.67263531.jpg",
+    "static/media/103.2e42c338.jpg": "/static/media/103.2e42c338.jpg",
+    "static/media/104.bbc7b625.jpg": "/static/media/104.bbc7b625.jpg",
+    "static/media/105.2a24d9f2.jpg": "/static/media/105.2a24d9f2.jpg",
+    "static/media/106.ddbff783.jpg": "/static/media/106.ddbff783.jpg",
+    "static/media/114.9de414d0.jpg": "/static/media/114.9de414d0.jpg",
+    "static/media/cardano-social.4cdb1b8b.png": "/static/media/cardano-social.4cdb1b8b.png",
+    "static/media/zoeblue.29623c99.png": "/static/media/zoeblue.29623c99.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7075d659.js",
+    "static/css/2.1f208231.chunk.css",
+    "static/js/2.1ccee4b7.chunk.js",
+    "static/css/main.72a8bd63.chunk.css",
+    "static/js/main.f00166e1.chunk.js"
+  ]
+}
