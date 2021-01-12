@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# ZOEPOOL.com
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) see documentation there.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To Contribute
+1. Clone repository
+2. ```npm install``` to add depencies listed below
 
-## Available Scripts
+## Additional Dependencies
+- ```@fullpage/react-fullpage``` provides the essential full page scrolling action for the site
+- ```bootstrap 4.5.3``` is used for styling
+- ```jquery 3.5.1``` enables the use of some bootstrap functionality
+- ```react-router-dom 5.2.0``` is used for any routing that is not part of the react-fullpage scrolling action
+- ```styled-components 5.2.1``` is used for custom styling
 
-In the project directory, you can run:
+## To Do
+- the purple bar gets in the way of clicking the different sections on the about page
+- is it possible to maybe have that bar as something you hover over and when you hover over it that when you see the full bar?
+- I think we should consider making the ZOE logo here smaller - thoughts? I think maybe we should keep it in & around the size of the purple navigation tab to left, giving it something to be anchored to.
+- I think the "Dive In" section should go in the order of
+    - Glossary
+    - Events
+    - Partners
+- Classes via ```App.css``` vs ```styled-components``` are used inconsistently. Choose one and stick to it.
+- On ```Dive.js```, implement Active tab
 
-### `npm start`
+## We need links to:
+- cardano.social
+- abcd
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Content Questions
+- Could I get your feedback & thoughts please, specifically on the Transparency & Costing section?
+- Transparency - do we want to commit to a detailed activity report? what do we have in mind for this what would in this report? For the monthly updates what do they look lie, what's an update for our delegators?
+- Costing - Are the prices there correct? Let me know if any adjustments need to be made.
+- Are there any other sections we'd like in this document other than what's already here?

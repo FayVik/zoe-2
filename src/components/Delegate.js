@@ -85,7 +85,7 @@ const ZoeBlue = styled.img`
 `;
 
 const ZoeFull = styled.img`
-
+    height: 70%;
 `;
 
 //const ImageMobile = styled.img`

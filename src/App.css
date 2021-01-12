@@ -86,3 +86,8 @@ body{
   color: rgba(66,31,113,0.9);
   letter-spacing: 10px;
 }
+
+.delegate-details{
+  color: rgba(66,31,113,0.9);
+  font-size: 1rem;
+}

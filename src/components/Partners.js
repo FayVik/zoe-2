@@ -12,10 +12,9 @@ function Partners() {
                     <h1>ZOEPOOL Partners</h1>
                     <p1 class="dive-text">A list of partners with links. We can change the layout of this page, and link to deeper content.</p1>
                     <ul class="dive-text">
-                        <li>AfroFinLab</li>
-                        <li>ABCD</li>
-                        <li>Workshop Maybe</li>
-                        <li>WADA, Liqwid, Grance, Gimbalabs</li>
+                        <li><a href="https://afrofinlab.com" target="blank">AfroFinLab</a></li>
+                        <li><a href="">ABCD</a></li>
+                        <li><a href="https://gimbalabs.com" target="blank">Gimbalabs</a></li>
                     </ul>                  
                 </div>
             </div>

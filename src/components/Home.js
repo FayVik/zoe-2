@@ -12,7 +12,7 @@ function Home() {
                     <div className="col-6"></div>
                     <div className="col-6">
                         <h1>zoepool</h1>
-                        <SubTitle>an African based stakepool focused on </SubTitle>
+                        <SubTitle>an Africa-based stakepool focused on </SubTitle>
                         <div class="d-block d-lg-none"><HashTaggedSmall>#WomenInBlockchain.</HashTaggedSmall></div>
                         <div class="d-none d-lg-block"><HashTaggedLarge>#WomenInBlockchain.</HashTaggedLarge></div>
                     </div>

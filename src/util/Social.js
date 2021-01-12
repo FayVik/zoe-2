@@ -36,7 +36,7 @@ function Social() {
             
             {/* Browser Wide View */} 
             <div class="d-none d-lg-block">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg">
                     <div className="container-fluid" style={{
                         position: 'fixed',    
                         bottom: 20,
