@@ -1,7 +1,7 @@
 {
   "name": "zoe-2",
   "version": "0.1.0",
-  "homepage": "http://workshopmaybe.github.io/zoe-2/",
+  "homepage": "https://zoepool.com/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
