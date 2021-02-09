@@ -91,3 +91,26 @@ body{
   color: rgba(66,31,113,0.9);
   font-size: 1rem;
 }
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.fabar{
+  color: #fff;
+  background: rgba(66,31,115,0.7);
+  border: none;
+  padding: 8px 20px;
+  font-weight: 600;
+}
+.dropdown-menu{
+  background: rgba(66,31,115,0.7);
+  padding-left: 20px;
+}
+.nav-item .nav-link .active{
+  color: pink !important;
+}

@@ -5,6 +5,7 @@ import './index.css';
 import 'bootstrap/js/dist/tab';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fontawesome';
 
 ReactDOM.render(
   <React.StrictMode>
