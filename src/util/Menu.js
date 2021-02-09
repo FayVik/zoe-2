@@ -56,19 +56,19 @@ function Menu() {
 
                     <ul class="nav flex-column">
                         <li class="nav-item border-0">
-                            <a class="nav-link" activeClassName="active" data-menuanchor="home" href="/#home">Bread</a>
+                            <a class="nav-link" data-menuanchor="home" href="/#home"><MenuLink>Home</MenuLink></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" activeClassName="active" data-menuanchor="about" href="/#about"><MenuLink>About</MenuLink></a>
+                            <a class="nav-link" data-menuanchor="about" href="/#about"><MenuLink>About</MenuLink></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" activeClassName="active" data-menuanchor="delegate" href="/#delegate"><MenuLink>Delegate</MenuLink></a>
+                            <a class="nav-link" data-menuanchor="delegate" href="/#delegate"><MenuLink>Delegate</MenuLink></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" activeClassName="active" data-menuanchor="dive" href="/#dive"><MenuLink activeClassName="active" >Dive In</MenuLink></a>
+                            <a class="nav-link" data-menuanchor="dive" href="/#dive"><MenuLink >Dive In</MenuLink></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" activeClassName="active" data-menuanchor="blog" href="/#blog"><MenuLink>Blog</MenuLink></a>
+                            <a class="nav-link" data-menuanchor="blog" href="/#blog"><MenuLink>Blog</MenuLink></a>
                         </li>
                     </ul>
                 </div>

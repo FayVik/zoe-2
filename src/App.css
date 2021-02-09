@@ -111,6 +111,3 @@ body{
   background: rgba(66,31,115,0.7);
   padding-left: 20px;
 }
-.nav-item .nav-link .active{
-  color: pink !important;
-}
