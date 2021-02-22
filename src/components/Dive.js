@@ -39,7 +39,7 @@ function Dive() {
                         <Partners />
                     </Route>
                     <Route path="/credits">
-                        <h1>Site Credits</h1>
+                        <h1 className="mt-5">Site Credits</h1>
                         <p>This site was made with love by the ZOEPOOL team, with design help from Gimbalabs.</p>
                         <p>All photos are by Darlington Sheriff. For more info see:</p>
                         <ul>
