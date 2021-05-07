@@ -1,5 +1,5 @@
 import { React, Fragment } from "react";
-import { Link } from "react-router-dom";
+// import { a } from "react-router-dom";
 import csocial from "../images/cardano-social.png";
 import instagram from "../images/instagram.png";
 import twitter from "../images/twitter.png";
@@ -26,24 +26,24 @@ function Social() {
         >
           <ul class="nav nav-fill">
             <li class="nav-item">
-              <Link to="https://www.instagram.com/zoepoolz/">
+              <a href="https://www.instagram.com/zoepoolz/">
                 <ImgM src={instagram} />
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link to="https://twitter.com/zoepoolz">
+              <a href="https://twitter.com/zoepoolz">
                 <ImgM src={twitter} />
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link to="">
+              <a href="https://zoepool.medium.com">
                 <ImgM src={medium} />
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link to="">
+              <a href="/">
                 <ImgM src={csocial} />
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
@@ -74,24 +74,24 @@ function Social() {
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             {/* <ul class="nav"> */}
             <li class="nav-item">
-              <Link to="https://www.instagram.com/zoepoolz/">
+              <a href="https://www.instagram.com/zoepoolz/">
                 <ImgM src={instagram} />
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link to="https://twitter.com/zoepoolz">
+              <a href="https://twitter.com/zoepoolz">
                 <ImgM src={twitter} />
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link to="">
+              <a href="https://zoepool.medium.com">
                 <ImgM src={medium} />
-              </Link>
+              </a>
             </li>
             <li class="nav-item">
-              <Link to="">
+              <a href="/">
                 <ImgM src={csocial} />
-              </Link>
+              </a>
             </li>
             {/* </ul>  */}
           </div>
