@@ -8,6 +8,7 @@ import styled from "styled-components";
 import "../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function Social() {
   return (
     <Fragment>
@@ -38,6 +39,11 @@ function Social() {
             <li class="nav-item">
               <a href="https://zoepool.medium.com">
                 <ImgM src={medium} />
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="mailto:proofoflifezoe@gmail.com">
+                <FontAwesomeIcon icon={faEnvelope} className="ml-4" />
               </a>
             </li>
             <li class="nav-item">
@@ -86,6 +92,11 @@ function Social() {
             <li class="nav-item">
               <a href="https://zoepool.medium.com">
                 <ImgM src={medium} />
+              </a>
+            </li>
+             <li class="nav-item">
+              <a href="mailto:proofoflifezoe@gmail.com">
+                <FontAwesomeIcon icon={faEnvelope}/>
               </a>
             </li>
             <li class="nav-item">
